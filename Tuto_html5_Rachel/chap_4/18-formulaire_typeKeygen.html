@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang= "fr">
+
+	<head>
+	
+		<meta charset = "utf-8">
+		<script src="assets/js/correctif.js"></script>
+		<link rel="stylesheet" href="assets/css/correctif_balise.css" media="screen"/>
+		<link rel="stylesheet" href="../assets/css/base.css" media="screen" />
+		<title>Modèle page HTML5 </title>
+		
+	</head>
+	
+	<body>
+	
+		<header>
+			<img src="../assets/images/thumbnail.png" alt="logo" />
+			<h1>HTML5</h1>
+			<h2>Page modèle exercice</h2>
+		</header>
+		
+		<p class="hint">Génération d'une clef. Le niveau peut-être augmenté grâce à l'attribut <code>challenge</code>.</p>
+			<form action="element-keygen" method="post">
+				<p>
+					<label for="e-mail">E-mail personnel</label>
+					<input type="e-mail"  id="e-mail" name="e-mail">
+				</p>
+				<p>
+				<label for="secu">Sécurisation</label>
+				<keygen type="secu" name="secu" id="secu">
+				</p>
+				<br/><br/>
+				<button>Tayst</button>
+			</form>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js%22%3E</script>
+            <script type="text/javascript">
+                $(function() 
+                {
+                    $(«form p+p»).after('<p><label for=»plusplus»>Ajouter un «challenge» ?</label>
+                    <input type="checkbox" name="plusplus" id="plusplus" /></p>');
+                    $(«#plusplus»).live('change', function() 
+                    {
+                        if($(this).filter(':checked').length==1) { 
+                            var date = new Date(); 
+                            $(«#secu»).attr('challenge', date.getTime()); 
+                            $(«#secu»).after('<span class="moreplus"> ++</span>'); 
+                        }else {
+                            $(«#secu»).removeAttr('challenge'); 
+                            $(«.moreplus»).remove(); 
+                        }; 
+                    }); 
+                }); 
+            </script>
+
+
+	</body>
+	
+</html>

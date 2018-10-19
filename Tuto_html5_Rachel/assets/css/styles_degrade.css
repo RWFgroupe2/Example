@@ -1,0 +1,51 @@
+div{
+	height:75px;
+	width:400px;
+	margin:20px;
+	text-align:center;
+	border: 2px #f2662a solid;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#simple{
+	background-image:linear-gradient(top, white,black);
+	background-image:-moz-linear-gradient(top,white,black);
+	background-image:-o-linear-gradient(top,white,black);
+	background-image:-ms-linear-gradient(top,white,black);
+	background-image:-webkit-linear-gradient(top,white,black);
+}
+
+#angulaire{
+	background-image:linear-gradient(45deg, white, green, black);
+	background-image: -moz-linear-gradient(45deg, white, green, black);
+	background-image: -o-linear-gradient(45deg, white, green, black);
+	background-image: -ms-linear-gradient(45deg, white, green, black);
+	background-image:-webkit-linear-gradient(45deg, white, green, black);
+}
+
+#circulaire{
+	background-image: radial-gradient(center top, circle cover, white, #111);
+	background-image: -moz-radial-gradient(center top, circle cover, white, #111);
+	background-image: -o-radial-gradient(center top, circle cover, white, #111);
+	background-image: -ms-radial-gradient(center top, circle cover, white, #111);
+	background-image:-webkit-radial-gradient(center top, circle cover, white, #111);
+}
+
+#repetitif{
+	background-image: repeating-linear-gradient(left, white 80%, black, white);
+	background-image: -moz-repeating-linear-gradient(left, white 80%, black, white);
+	background-image: -o-repeating-linear-gradient(left, white 80%, black, white);
+	background-image: -ms-repeating-linear-gradient(left, white 80%, black, white);
+	background-image: -webkit-repeating-linear-gradient(left, white 80%, black, white);
+}
+
+#rgb h1{
+	height:75px;
+	margin:0;
+	background-image:linear-gradient(top, rgba(147,185,196,0.9),rgba(110,124,140,0.9));
+	background-image:-webkit-linear-gradient(top,rgba(147,185,196,0.9),rgba(110,124,140,0.9));
+	background-image:-moz-linear-gradient(top,rgba(147,185,196,0.9),rgba(110,124,140,0.9));
+	background-image:-ms-linear-gradient(top,rgba(147,185,196,0.9),rgba(110,124,140,0.9));
+	background-image:-o-linear-gradient(top,rgba(147,185,196,0.9),rgba(110,124,140,0.9));
+}

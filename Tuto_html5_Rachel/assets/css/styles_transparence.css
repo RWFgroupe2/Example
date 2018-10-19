@@ -1,0 +1,55 @@
+.rgba {
+	width: 200px;
+	height: 75px;
+	border: #000 4px solid;
+	margin: 20px;
+}
+
+.rgba h1 {
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	color:rgba(228,76,39,0.5);
+}
+
+.opacity {
+	width: 200px;
+	height: 75px;
+	border: #000 4px solid;
+	margin:20px;
+	background-color:#FFF;
+	box-shadow: 8px 8px 8px;
+	-webkit-box-shadow: 8px 8px 8px;
+	-moz-box-shadow: 8px 8px 8px;
+	-o-box-shadow: 8px 8px 8px;
+	-ms-box-shadow: 8px 8px 8px;
+	opacity: 0.5;
+}
+
+.opacity h1 {
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	color:rgb(228,76,39);
+}
+
+.dropshadow {
+	width: 200px;
+	height: 75px;
+	border: #000 4px solid;
+	margin:20px;
+	background-color:#FFF;
+	box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+	-moz-box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+	-o-box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+	-ms-box-shadow: 8px 8px 8px rgba(0,0,0,0.5);
+}
+
+.dropshadow h1 {
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	color:rgb(228,76,39);
+}
+

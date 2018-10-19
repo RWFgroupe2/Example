@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang= "fr">
+
+	<head>
+	
+		<meta charset = "utf-8">
+		<script src="assets/js/correctif.js"></script>
+		<link rel="stylesheet" href="assets/css/correctif_balise.css" media="screen"/>
+		<link rel="stylesheet" href="../assets/css/base.css" media="screen" />
+		<title>Modèle page HTML5 </title>
+		
+	</head>
+	
+	<body>
+	
+		<header>
+			<img src="../assets/images/thumbnail.png" alt="logo" />
+			<h1>HTML5</h1>
+			<h2>Page modèle exercice</h2>
+		</header>
+		
+		<div id="wrap">
+			<form id="mon_formulaire" action="" method="post">
+				<label for="champ1">Tel.</label>
+				<input type="tel" id="champ1" required><em>(sans pattern)</em><br/>
+				<label for="champ2">Tel.</label>
+				<input for="champ2" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" required> <em>(avec pattern)</em><br/>
+				<input type="submit" value="Valider"/>
+			</form>
+		</div>
+				
+		
+	</body>
+	
+</html>

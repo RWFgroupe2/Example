@@ -1,0 +1,75 @@
+#icoList {
+	margin: 20px auto 0 auto;
+	padding:10px;
+	border:1px solid #CCC;
+	width:230px;
+	height:40px;
+}
+
+#icoList div{
+	position:relative;
+	width:32px;
+	height:32px;
+	border:0;
+	float:left;
+	margin:7px;
+}
+
+#icoChrome{
+	background:url('../images/chrome1.png');
+}
+
+#icoMoz{
+	background:url('../images/firefox1.png');
+}
+
+#icoIE{
+	background:url('../images/ie1.png');
+}
+
+#icoOpera{
+	background:url('../images/opera1.png');
+	/* appel animation */
+	animation: bounce 0.7s ease infinite;
+	-webkit-animation: bounce 0.7s ease infinite;
+	-o-animation: bounce 0.7s ease infinite;
+	-moz-animation: bounce 0.7s ease infinite;
+	-ms-animation: bounce 0.7s ease infinite;
+}
+
+#icoSafari{
+	background:url('../images/safari1.png');
+}
+
+@keyframes bounce{
+	from{top: 0px;}
+	50% {top: -10px;}
+	to {top: 0px;}
+}
+
+@-webkit-keyframes bounce{
+	from{top: 0px;}
+	50% {top: -10px;}
+	to {top: 0px;}
+}
+	
+@-o-keyframes bounce{
+	from{top: 0px;}
+	50% {top: -10px;}
+	to {top: 0px;}
+}
+
+@-moz-keyframes bounce{
+	from{top: 0px;}
+	50% {top: -10px;}
+	to {top: 0px;}
+}
+
+@-ms-keyframes bounce{
+	from{top: 0px;}
+	50% {top: -10px;}
+	to {top: 0px;}
+}
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang= "fr">
+
+	<head>
+	
+		<meta charset = "utf-8">
+		<link rel="stylesheet" href="assets/css/correctif_balise.css" media="screen"/>
+		<script src="assets/js/correctif.js"></script>
+		<link rel="stylesheet" href="../assets/css/base.css" media="screen" />
+		<title>Modèle page HTML5 </title>
+		
+	</head>
+	
+	<body>
+	
+		<header>
+			<img src="../assets/images/thumbnail.png" alt="logo" />
+			<h1>HTML5</h1>
+			<h2>Page modèle exercice</h2>
+		</header>
+		
+		<audio id="player" src="Natural.mp3" <!--autoplay="autoplay" controls="controls"--> ></audio>
+			<div>
+				<button onclick="document.getElementById('player').play();">Play</button>
+				<button onclick="document.getElementById('player').pause()">Pause</button>
+				<button onclick="document.getElementById('player').volume+=0.1;">Volume up</button>
+				<button onclick="document.getElementById('player').volume-=0.1;">Volume Down</button>
+			</div>
+		
+		<audio src="Natural.mp3" autoplay="autoplay" controls="controls" loop="loop"></audio>
+		
+		<audio controls="controls">
+			<source src="Boardroom_Theme.ogg" type="audio/ogg" />
+			<source src="Boardroom_Theme.mp3" type="audio/mpeg" />
+		</audio>
+		
+		<audio controls="controls">
+			<source src="Boardroom_Theme.ogg" type="audio/ogg" />
+			<source src="Boardroom_Theme.mp3" type="audio/mpeg" />
+			<object type="application/x-shockwave-flash" data="player.swf?soundFile=Boardroom_Theme.mp3">
+				<param name="movie" value="player.swf?soundFile=Boardroom_Theme.mp3" > 
+				<a href="Boardroom_Theme.mp3">Télécharger la chanson</a>
+			</object>
+		</audio>
+		
+	</body>
+	
+</html>

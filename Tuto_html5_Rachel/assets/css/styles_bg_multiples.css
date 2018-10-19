@@ -1,0 +1,23 @@
+/*
+body{
+	background-image:url(../images/bg_1.png);
+}
+*/
+/*
+body{
+	background-image: url(../images/bg_1.png),url(../images/bg_2.png);
+}
+*/
+
+/*
+body{
+	background-image: url(../images/bg_1.png),url(../images/bg_2.png), url(../images/bg_3.png);
+}
+*/
+
+body{
+	background-image: url("../images/gris1.png"),url("../images/gris2.png");
+	background-repeat: repeat-y;
+	background-position: top left, top right;
+}
+

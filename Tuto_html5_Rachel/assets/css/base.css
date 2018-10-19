@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+body {font: normal 90% «Trebuchet MS»,Verdana,»Lucida Grande»,Tahoma,Arial,Helvetica,Sans-Serif;
+	color: #444;
+	background:#f4f4f4;
+	padding:0 0 2em 0;
+	margin:0;}
+	
+header{color:#ee662a;
+background: white;
+border-bottom: 2px dotted #CCC;
+margin:0;
+padding:0.8em;
+}
+
+header h1{font-size: 4em;
+font-weight: normal;
+margin:0;
+text-shadow: 1px 1px 2px #999;
+}
+
+header h2{font-size: 1.5em;
+font-weight:bold;
+margin: 0 0 2.5em 10em;
+color: #e74b25;
+}
+
+header img{float:left;
+margin-right:3em;
+}
+
+/* formulaire */
+#wrap {
+	padding: 0 3em 3em 3em;
+	margin: auto;
+}
+
+#mon_formulaire{
+	margin-top: 5px;
+	padding:10px;
+	width: 400px;
+}
+
+/*firefox*/
+#mon_formulaire input:-moz-placeholder{
+	color:red;
+}
+
+/*safari*/
+#mon_formulaire input:-webkit-input-placeholder{
+	color:red;
+}
+
+#mon_formulaire label{
+	float:left;
+	font-size:13px;
+	width:110px;
+}
+
+[required]{
+	border:1px solid orange;
+}
+
+[type="text"]:-webkit-validation-bubble-arrow{
+	background-color:#f4f4f4;
+	border:1px solid #D8000C;
+	border-width:1 px 0 0 1px;
+	box-shadow: none;
+}
+
+[type="text"]: webkit-validation-bubble-icon{
+	display:none;
+}
+
+[type="text"]:-webkit-validation-message{
+	background-color:#f4f4f4;
+	border:1px solid #D8000C;
+	border-width:1 px 0 0 1px;
+	font-size:100%;
+	box-shadow: 0 1px 5px #bbb;
+	text-shadow: 0 1px 0 #fff;
+}
+
+[type="text"]:-webkit-validation-bubble-message::before{
+	content:"Téléphone:";
+}
+
+:valid{
+	box-shadow: 0 0 2px 1px green;
+}
+

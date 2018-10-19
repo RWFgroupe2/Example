@@ -1,0 +1,18 @@
+#introduction-content{
+	width:400px;
+	background:#F9A890;
+	margin:20px #f2662a solid;
+	/*border-radius: 24px 48px 24px 48px
+	border-radius:48px/24px;
+	-webkit-border-radius:24px;
+	-moz-border-radius:24px;
+	-o-border-radius:24px;
+	-ms-border-radius:24px;*/
+	border-image:url(../images/border1.png) 10% /*repeat*/;
+	-webkit-border-image: url(../images/border1.png) 10% /*repeat*/;
+	-moz-border-image: url(../images/border1.png) 10% /*repeat*/;
+	-o-border-image: url(../images/border1.png) 10% /*repeat*/;
+	-ms-border-image: url(../images/border1.png) 10% /*repeat*/; 
+	-chrome-border-image:url(../images/border1.png) 10% /*repeat*/;
+	padding: 10px;
+}
